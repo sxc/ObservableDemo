@@ -13,6 +13,8 @@
 		345C328B2592EF1D006A2780 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345C32762592EF1A006A2780 /* ContentView.swift */; };
 		345C328C2592EF1D006A2780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345C32772592EF1C006A2780 /* Assets.xcassets */; };
 		345C328D2592EF1D006A2780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345C32772592EF1C006A2780 /* Assets.xcassets */; };
+		345C32992592EF2F006A2780 /* TimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345C32982592EF2F006A2780 /* TimerData.swift */; };
+		345C329A2592EF2F006A2780 /* TimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345C32982592EF2F006A2780 /* TimerData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		345C32842592EF1D006A2780 /* ObservableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		345C32862592EF1D006A2780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		345C32872592EF1D006A2780 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		345C32982592EF2F006A2780 /* TimerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				345C32752592EF1A006A2780 /* ObservableDemoApp.swift */,
 				345C32762592EF1A006A2780 /* ContentView.swift */,
 				345C32772592EF1C006A2780 /* Assets.xcassets */,
+				345C32982592EF2F006A2780 /* TimerData.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -189,6 +193,7 @@
 			files = (
 				345C328A2592EF1D006A2780 /* ContentView.swift in Sources */,
 				345C32882592EF1D006A2780 /* ObservableDemoApp.swift in Sources */,
+				345C32992592EF2F006A2780 /* TimerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +203,7 @@
 			files = (
 				345C328B2592EF1D006A2780 /* ContentView.swift in Sources */,
 				345C32892592EF1D006A2780 /* ObservableDemoApp.swift in Sources */,
+				345C329A2592EF2F006A2780 /* TimerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
